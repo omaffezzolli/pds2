@@ -10,8 +10,9 @@ public class Conexao {
 	private static final String DATABASE = "nome-banco";
 	private static final String USER = "root";
 	private static final String PSW = "aluno";
+	
 
-	public Conexao() {
+	private Conexao() {
 	}
 
 	public static Conexao getInstacia() {
